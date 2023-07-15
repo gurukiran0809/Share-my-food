@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Share My Food</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_to_register">Not Yet Register?</string>
+</resources>

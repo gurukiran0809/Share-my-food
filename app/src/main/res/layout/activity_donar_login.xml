@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donar_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="project.sharemyfood.donar.Doner_Login"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/wallpaper_rose_light">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <EditText
+            android:id="@+id/doner_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter Phone Number"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="phone"
+            android:gravity="center_vertical|center_horizontal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/doner_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter Password"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPassword"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_doner_login"
+        android:background="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_margin="30dp" />
+
+    <TextView
+        android:text="New User!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_link_doner"
+        android:layout_margin="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="normal|bold" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doner_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.sharemyfood.donar.DonerRegistration"
+    android:background="@drawable/wallpaper_rose_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="100dp"
+                android:id="@+id/textViewr"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/doner_reg_name"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Your Name"
+                    android:singleLine="false" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="Address"
+                android:layout_width="100dp"
+                android:id="@+id/textViewr2"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/doner_reg_address"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Your Address" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="Email"
+                android:layout_width="100dp"
+                android:id="@+id/textViewr3"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/doner_reg_email"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Your Email"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="CONTACT"
+                android:layout_width="100dp"
+                android:id="@+id/textViewr4"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/doner_reg_contact"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Your Contact" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="PASSWORD"
+                android:layout_width="100dp"
+                android:id="@+id/textView"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/doner_reg_password"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_doner_reg"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</ScrollView>

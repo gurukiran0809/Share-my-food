@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doner_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context="project.sharemyfood.donar.DonerHome"
+    android:background="@drawable/wallpaper_rose_light">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:id="@+id/btn_doner_add_food"
+        android:layout_margin="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Food"
+        android:id="@+id/btn_doner_foods"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:text="Show Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_doner_show_map"
+        android:layout_margin="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>

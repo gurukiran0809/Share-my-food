@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="project.sharemyfood.MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wall_paper1">
+
+    <TextView
+        android:text="Welcome to Share My Food"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fd4545"
+        android:paddingBottom="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pouring_soup_1"
+            android:id="@+id/img_donar"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:padding="0dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pouring_soup_2"
+            android:id="@+id/img_accept"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:padding="0dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:text="DONOR"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_donor"
+            android:textColor="?android:attr/textColorLink"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:background="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="1dp" />
+
+        <TextView
+            android:text="ACCEPTER"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_accepter"
+            android:textStyle="normal|bold"
+            android:textColor="?android:attr/textColorLink"
+            android:textSize="24sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@color/white"
+            android:layout_marginLeft="1dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

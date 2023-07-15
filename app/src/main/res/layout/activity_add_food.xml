@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.sharemyfood.donar.AddFood"
+    android:background="@drawable/wallpaper_rose_light">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="100dp"
+            android:id="@+id/textViewr1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/food_name"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Enter Food Name"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="Food Type"
+            android:layout_width="100dp"
+            android:id="@+id/textViewr2"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/food_type"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Enter Food Type"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="cuisine"
+            android:layout_width="100dp"
+            android:id="@+id/textViewr3"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/food_cuisine"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Enter Food Cuisine"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="quantity"
+            android:layout_width="100dp"
+            android:id="@+id/textViewr4"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/food_quantity"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Enter Food quantity"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1.44">
+
+        <TextView
+            android:text="Cooked At"
+            android:layout_width="100dp"
+            android:id="@+id/textViewr"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/food_cookedat"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:hint="Enter Food Cooked time"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:text="Validity"
+                android:layout_width="100dp"
+                android:id="@+id/textViewr6"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/food_validity"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:hint="Enter Food Validity"
+                    android:singleLine="false" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pouring_soup_001"
+            android:id="@+id/food_image" />
+
+        <Button
+            android:text="Add Food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add_food"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold|italic" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
